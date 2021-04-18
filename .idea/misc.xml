@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/compose-model-1617413633299.xml" value="0.1258361204013378" />
+        <entry key="../../../../../layout/compose-model-1617576946289.xml" value="0.25" />
+        <entry key="../../../../../layout/compose-model-1617576946558.xml" value="0.12604515050167225" />
+        <entry key="../../../../../layout/compose-model-1617657097038.xml" value="0.33" />
+        <entry key="../../../../../layout/compose-model-1618105333263.xml" value="0.16639072847682118" />
+        <entry key="../../../../../layout/compose-model-1618274208724.xml" value="0.33" />
+        <entry key="../../../../../layout/compose-model-1618279389160.xml" value="0.33" />
+        <entry key="../../../../../layout/compose-model-1618348621936.xml" value="0.33" />
+        <entry key="../../../../../layout/compose-model-1618422862745.xml" value="0.33" />
+        <entry key="../../../../../layout/compose-model-1618451124914.xml" value="0.33" />
+        <entry key="../../../../../layout/compose-model-1618534601293.xml" value="0.33" />
+        <entry key="../../../../../layout/compose-model-1618534645273.xml" value="0.5" />
+        <entry key="../../../../../layout/compose-model-1618686875420.xml" value="0.67" />
+        <entry key="../../../../../layout/compose-model-1618687200880.xml" value="0.5" />
+        <entry key="../../../../../layout/compose-model-1618687323519.xml" value="0.33" />
+        <entry key="../../../../../layout/compose-model-1618778700831.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
