@@ -9,9 +9,9 @@ With the beta release of Jetpack Compose and the team over at Clubhouse have yet
 
 I will be focusing on trying to recreate the UI using Franck's [Figma assets](https://www.figma.com/file/8DwfJi51F88IW1xNVrDMP4/Clubapartment?node-id=0%3A1) in Jetpack Compose and not any backend functionality.
 
------------------------------------
 
 App Mockup
+
 -----------------------------------
 
 ![Clubhouse for Android!](https://i.imgur.com/1fYUTsN.png) ![Clubhouse for Android!](https://i.imgur.com/GUPbFF5.png) 
