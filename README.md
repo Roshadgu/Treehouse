@@ -13,5 +13,6 @@ I will be focusing on trying to recreate the UI using Franck's [Figma assets](ht
 App Mockup
 <br>
 -----------------------------------
+-----------------------------------
 
 ![Clubhouse for Android!](https://i.imgur.com/1fYUTsN.png) ![Clubhouse for Android!](https://i.imgur.com/GUPbFF5.png) 
