@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.Image
 import androidx.compose.runtime.Composable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.*
 import androidx.compose.ui.Modifier
 import androidx.constraintlayout.compose.ConstraintLayout
@@ -19,6 +20,13 @@ import androidx.compose.material.IconButton
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Alignment.Companion.Center
+import com.roshadgu.treehouse.model.rooms
 
 class HomeActivity : AppCompatActivity()
 {
@@ -147,8 +155,23 @@ fun homeScreen()
       )
     }
   }
+  //EventCell()
+  RoomList(rooms)
+}
 
-  //RecyclerView Replacement Here ---> LazyColumn and Card
+@Composable
+fun RoomList(rooms: List<Room>)
+{
+  val scrollState = rememberLazyListState()
+
+  LazyColumn(
+    modifier = Modifier.padding(top = 100.dp, start = 20.dp, end = 20.dp, bottom = 20.dp),
+    state = scrollState) {
+    items(rooms)
+    {
+      room -> RoomCard(room)
+    }
+  }
 }
 
 @Preview("Light Theme", widthDp = 360, heightDp = 640)
@@ -160,13 +183,3 @@ fun HomeScreenLightPreview()
     homeScreen()
   }
 }
-/*
-@Preview("Dark Theme", widthDp = 360, heightDp = 640)
-@Composable
-fun HomeScreenDarkPreview()
-{
-  TreehouseTheme(darkTheme = true)
-  {
-    homeScreen()
-  }
-}*/
