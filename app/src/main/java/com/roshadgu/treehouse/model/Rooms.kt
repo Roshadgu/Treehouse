@@ -2,6 +2,9 @@ package com.roshadgu.treehouse.model
 
 import com.roshadgu.treehouse.R
 import com.roshadgu.treehouse.components.Room
+import kotlin.random.Random
+
+private var randNum: Int = Random.nextInt(0, 500)
 
 val rooms = listOf(
     Room(
